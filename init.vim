@@ -35,6 +35,7 @@ Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
 Plug 'ErichDonGubler/vim-sublime-monokai'
 Plug 'vim-airline/vim-airline'
 Plug 'ryanoasis/vim-devicons'
+Plug 'morhetz/gruvbox'
 
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'romgrk/barbar.nvim'
@@ -47,12 +48,10 @@ Plug 'tpope/vim-surround'
 
 call plug#end() 
 
-
-
-
 "								 Theme and Style settings
 
-colorscheme sublimemonokai 
+"colorscheme sublimemonokai 
+colorscheme gruvbox
 
 "16 вы можете поменять на нужный вам размер шрифта
 set guifont=Fura\ Code\ Light\ Nerd\ Font\ Complete:h16 "Это light версия
